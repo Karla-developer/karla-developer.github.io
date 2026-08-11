@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es" data-lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karla · Ingeniera en Informática</title>
+  <meta name="description" content="Portafolio de Karla, ingeniera en informática con 7+ años de experiencia desarrollando software para estudios de mercado, ahora expandiéndose hacia el desarrollo full-stack."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"/>
+  <link rel=stylesheet type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body data-lang="es">
+  <div class="bg-orb orb1"></div>
+  <div class="bg-orb orb2"></div>
+  <div class="bg-orb orb3"></div>
+
+  <div class="inner">
+
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="nav-logo">karla<span>.</span>dev</div>
+      <div class="nav-right">
+        <div class="nav-links">
+          <a class="nav-link" href="#proyectos"><span class="txt-es">proyectos</span><span class="txt-en">projects</span></a>
+          <a class="nav-link" href="#stack">stack</a>
+          <a class="nav-link" href="#contacto"><span class="txt-es">contacto</span><span class="txt-en">contact</span></a>
+        </div>
+        <button class="toggle-btn lang-btn" onclick="toggleLang()">🌐 <span id="langLabel">EN</span></button>
+        <button class="toggle-btn" onclick="toggleTheme()" id="themeBtn">
+          <i class="ti ti-moon"></i>
+          <span class="txt-es">oscuro</span><span class="txt-en">dark</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-badge">
+        <span class="txt-es">Disponible para proyectos · 2026</span>
+        <span class="txt-en">Available for projects · 2026</span>
+      </div>
+      <h1>
+        <span class="txt-es">Hola, soy</span>
+        <span class="txt-en">Hi, I'm</span>
+        <br><span class="accent">Karla.</span>
+      </h1>
+      <div class="hero-sub">
+        <span>Ingeniera en Informática</span>
+        <span class="sep">/</span>
+        <span>7+ años de experiencia</span>
+        <span class="sep">/</span>
+        <span>Santiago, CL</span>
+      </div>
+      <p class="hero-desc">
+        <span class="txt-es">Ingeniera en informática con más de 7 años desarrollando software para estudios de mercado: scripting en JavaScript, automatización de procesos y mejora de experiencia de usuario en aplicaciones web. Autodidacta por naturaleza, actualmente expandiendo mis habilidades hacia el desarrollo full-stack (React, TypeScript, integración de IA).</span>
+        <span class="txt-en">Software engineer with 7+ years building software for market research: JavaScript scripting, process automation and UX improvements for web applications. A natural self-learner, currently expanding into full-stack development (React, TypeScript, AI integration).</span>
+      </p>
+      <div class="hero-ctas">
+        <a href="#proyectos" class="btn-primary">
+          <i class="ti ti-arrow-down"></i>
+          <span class="txt-es">Ver proyectos</span>
+          <span class="txt-en">View projects</span>
+        </a>
+        <a href="Karla_Miranda_Rocuant_CV_2026.pdf" class="btn-secondary">
+          <i class="ti ti-file-cv"></i>
+          <span class="txt-es">Descargar CV</span>
+          <span class="txt-en">Download CV</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Stack -->
+    <section class="section" id="stack">
+      <div class="section-label">
+        <span class="txt-es">stack técnico</span>
+        <span class="txt-en">tech stack</span>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-category">
+          <div class="stack-cat-label">
+            <span class="txt-es">// lenguajes</span>
+            <span class="txt-en">// languages</span>
+          </div>
+          <div class="stack-items">
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">C / C++ / C#</span>
+            <span class="tag">PHP</span>
+            <span class="tag">Ruby</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="stack-category">
+          <div class="stack-cat-label">
+            <span class="txt-es">// herramientas & metodologías</span>
+            <span class="txt-en">// tools & methods</span>
+          </div>
+          <div class="stack-items">
+            <span class="tag">SPSS</span>
+            <span class="tag">Jira</span>
+            <span class="tag">SCRUM</span>
+            <span class="tag">Git</span>
+          </div>
+        </div>
+        <div class="stack-category">
+          <div class="stack-cat-label">
+            <span class="txt-es">// aprendiendo ahora (autodidacta)</span>
+            <span class="txt-en">// currently learning (self-taught)</span>
+          </div>
+          <div class="stack-items">
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Vite</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">Anthropic API</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Proyectos -->
+    <section class="section" id="proyectos">
+      <div class="section-label">
+        <span class="txt-es">proyectos destacados</span>
+        <span class="txt-en">featured projects</span>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Proyecto 1 -->
+        <div class="project-card">
+          <div class="project-thumb thumb-1">
+            <div class="thumb-inner">
+              <div class="thumb-icon">🛒</div>
+              <div class="thumb-label">side project · full-stack + IA</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-metric">
+              <span class="txt-es">proyecto de práctica autodidacta</span>
+              <span class="txt-en">self-taught practice project</span>
+            </div>
+            <div class="project-name">Smart Price Compare</div>
+            <div class="project-desc">
+              <span class="txt-es">Comparador de precios entre tiendas ficticias (datos mock, sin scraping real). El usuario busca un producto y una función serverless llama a la API de Anthropic para recomendar la mejor oferta considerando precio, envío y reputación.</span>
+              <span class="txt-en">Price comparison tool across fictional stores (mock data, no real scraping). The user searches for a product and a serverless function calls the Anthropic API to recommend the best offer, weighing price, shipping and store reputation.</span>
+            </div>
+            <div class="project-stack">
+              <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Vite</span><span class="tag">Tailwind</span><span class="tag">Vercel</span><span class="tag">Anthropic API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Karla-developer/smart-price-compare" target="_blank" class="proj-link"><i class="ti ti-brand-github"></i> <span class="txt-es">código</span><span class="txt-en">code</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="project-card">
+          <div class="project-thumb thumb-2">
+            <div class="thumb-inner">
+              <div class="thumb-icon">⚙️</div>
+              <div class="thumb-label">prueba técnica · backend</div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-metric">
+              <span class="txt-es">12 tests unitarios y de integración</span>
+              <span class="txt-en">12 unit & integration tests</span>
+            </div>
+            <div class="project-name">API de Gestión de Usuarios</div>
+            <div class="project-desc">
+              <span class="txt-es">API REST hecha para una prueba técnica de backend. Registro y consulta de usuarios con validación de email único, manejo de errores y cobertura de tests con JUnit 5, Mockito y MockMvc.</span>
+              <span class="txt-en">REST API built for a backend technical assessment. User registration and lookup with unique-email validation, error handling, and test coverage using JUnit 5, Mockito and MockMvc.</span>
+            </div>
+            <div class="project-stack">
+              <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">JUnit 5</span><span class="tag">Mockito</span><span class="tag">Maven</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Karla-developer/user-management-api" target="_blank" class="proj-link"><i class="ti ti-brand-github"></i> <span class="txt-es">código</span><span class="txt-en">code</span></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Sobre mí -->
+    <section class="section" id="sobre-mi">
+      <div class="section-label">
+        <span class="txt-es">sobre mí</span>
+        <span class="txt-en">about me</span>
+      </div>
+      <div class="about-block">
+        <div class="about-card full">
+          <div class="about-card-label">// bio</div>
+          <p>
+            <span class="txt-es">Ingeniera en informática con más de 7 años de experiencia en NetQuest, desarrollando software para estudios de mercado: scripting en JavaScript, testing, automatización de procesos y mejora continua de experiencia de usuario. Alta capacidad de autoaprendizaje — actualmente expandiendo mis habilidades hacia el desarrollo full-stack moderno (React, TypeScript) e integración de IA, como muestra mi proyecto Smart Price Compare.</span>
+            <span class="txt-en">Software engineer with 7+ years at NetQuest, building software for market research: JavaScript scripting, testing, process automation and continuous UX improvement. A strong self-learner — currently expanding into modern full-stack development (React, TypeScript) and AI integration, as shown in my Smart Price Compare project.</span>
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-label">
+            <span class="txt-es">// intereses</span>
+            <span class="txt-en">// interests</span>
+          </div>
+          <p>
+            <span class="txt-es">Automatización · Aprendizaje continuo · UX/UI · Open source</span>
+            <span class="txt-en">Automation · Continuous learning · UX/UI · Open source</span>
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-label">
+            <span class="txt-es">// buscando</span>
+            <span class="txt-en">// looking for</span>
+          </div>
+          <p>
+            <span class="txt-es">Nuevos retos donde pueda seguir creciendo profesionalmente, aportar mi experiencia técnica y seguir desarrollándome hacia el full-stack.</span>
+            <span class="txt-en">New challenges where I can keep growing professionally, contribute my technical experience, and keep developing toward full-stack work.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Contacto -->
+    <section class="section" id="contacto">
+      <div class="section-label">
+        <span class="txt-es">contacto</span>
+        <span class="txt-en">contact</span>
+      </div>
+      <div class="contact-area">
+        <div class="contact-left">
+          <h2>
+            <span class="txt-es">¿Trabajamos juntos?</span>
+            <span class="txt-en">Let's work together.</span>
+          </h2>
+          <p>
+            <span class="txt-es">Abierta a propuestas · respuesta en &lt; 24h</span>
+            <span class="txt-en">Open to proposals · reply within 24h</span>
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:k.miranda.rocuant@gmail.com" class="contact-link"><i class="ti ti-mail"></i> Email</a>
+          <a href="https://www.linkedin.com/in/karla-miranda-rocu%C3%A1nt-956a5a122/" target="_blank" class="contact-link"><i class="ti ti-brand-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/Karla-developer" target="_blank" class="contact-link"><i class="ti ti-brand-github"></i> GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span class="txt-es">©2026 Karla · Santiago, Chile</span>
+      <span class="txt-en">©2026 Karla · Santiago, Chile</span>
+    </footer>
+
+  </div><!-- /.inner -->
+</body>
+</html>
